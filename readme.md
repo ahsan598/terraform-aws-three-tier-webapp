@@ -50,7 +50,7 @@ terraform-aws-multitier-webapp/
 
 ### 🏗️ Architecture Overview
 
-![Project Diagram](https://github.com/ahsan598/terraform-aws-multitier-webapp/blob/main/screenshots/multi-tier.png)
+![Project Diagram](/imgs/multi-tier.png)
 
 ---
 
