@@ -1,6 +1,6 @@
 # Define the provider
 provider "aws" {
-  region = var.region  # AWS region from variables.tf
+  region = var.aws_region  # AWS region from variables.tf
 }
 
 # Call VPC module
