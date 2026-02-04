@@ -18,12 +18,12 @@ terraform {
 provider "aws" {
   region = var.aws_region
 
-# Set default tags for all AWS resources
+  # Set default tags for all AWS resources
   default_tags {
     tags = {
-      Environment = var.environment
       Project     = var.project_name
-      ManagedBy   = "Terraform"
+      Environment = var.environment
+      ManagedBy   = "terraform"
     }
   }
 }

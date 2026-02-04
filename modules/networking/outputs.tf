@@ -5,7 +5,7 @@ output "vpc_id" {
 
 output "vpc_igw_id" {
   description = "VPC Internet Gateway ID"
-  value = aws_internet_gateway.vpc_igw.id
+  value       = aws_internet_gateway.vpc_igw.id
 }
 
 output "public_subnet_web_ids" {

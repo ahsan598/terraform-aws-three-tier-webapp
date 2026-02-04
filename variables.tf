@@ -21,7 +21,6 @@ variable "project_name" {
   type        = string
 }
 
-
 # ============================================
 # VPC Configuration Variables
 # ============================================
